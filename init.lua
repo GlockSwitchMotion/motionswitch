@@ -83,15 +83,18 @@ if not shared.VapeDeveloper then
 		wipeFolder('motionswitch/libraries')
 	end
 	writefile('motionswitch/profiles/commit.txt', commit)
-	if #listfiles('motionswitch/profiles') < 4 then
+	
+	-- Fetch all core directories from GitHub repository contents
+	local foldersToFetch = {'profiles', 'guis', 'libraries', 'games', 'assets'}
+	for _, subfolder in ipairs(foldersToFetch) do
 		local req = request({
-			Url = 'https://api.github.com/repos/GlockSwitchMotion/motionswitch/contents/profiles',
+			Url = 'https://api.github.com/repos/GlockSwitchMotion/motionswitch/contents/'..subfolder,
 			Method = 'GET'
 		})
-		if req.StatusCode == 200 then
+		if req and req.StatusCode == 200 then
 			local body = cloneref(game:GetService('HttpService')):JSONDecode(req.Body)
 			if body and typeof(body) == 'table' then
-				for _, v in body do
+				for _, v in ipairs(body) do
 					if v.type == 'file' then
 						pcall(downloadFile, 'motionswitch/'.. ({v.path:gsub(' ', '%%20')})[1])
 					end
