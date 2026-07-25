@@ -1,3 +1,4 @@
+--!nocheck
 local license = ... or {}
 local mainapi = {
 	Categories = {},
@@ -510,3 +511,5 @@ mainapi.Libraries = {
 	tween = tween,
 	uipallet = uipallet,
 }
+
+return mainapi
