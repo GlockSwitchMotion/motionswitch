@@ -61,69 +61,69 @@ local uipallet = {
 }
 
 local getcustomassets = {
-	['motionrewrite/assets/new/add.png'] = 'rbxassetid://14368300605',
-	['motionrewrite/assets/new/alert.png'] = 'rbxassetid://14368301329',
-	['motionrewrite/assets/new/allowedicon.png'] = 'rbxassetid://14368302000',
-	['motionrewrite/assets/new/allowedtab.png'] = 'rbxassetid://14368302875',
-	['motionrewrite/assets/new/arrowmodule.png'] = 'rbxassetid://14473354880',
-	['motionrewrite/assets/new/back.png'] = 'rbxassetid://14368303894',
-	['motionrewrite/assets/new/bind.png'] = 'rbxassetid://14368304734',
-	['motionrewrite/assets/new/bindbkg.png'] = 'rbxassetid://14368305655',
-	['motionrewrite/assets/new/blatanticon.png'] = 'rbxassetid://14368306745',
-	['motionrewrite/assets/new/blockedicon.png'] = 'rbxassetid://14385669108',
-	['motionrewrite/assets/new/blockedtab.png'] = 'rbxassetid://14385672881',
-	['motionrewrite/assets/new/blur.png'] = 'rbxassetid://14898786664',
-	['motionrewrite/assets/new/blurnotif.png'] = 'rbxassetid://16738720137',
-	['motionrewrite/assets/new/close.png'] = 'rbxassetid://14368309446',
-	['motionrewrite/assets/new/closemini.png'] = 'rbxassetid://14368310467',
-	['motionrewrite/assets/new/colorpreview.png'] = 'rbxassetid://14368311578',
-	['motionrewrite/assets/new/combaticon.png'] = 'rbxassetid://14368312652',
-	['motionrewrite/assets/new/customsettings.png'] = 'rbxassetid://14403726449',
-	['motionrewrite/assets/new/discord.png'] = '',
-	['motionrewrite/assets/new/dots.png'] = 'rbxassetid://14368314459',
-	['motionrewrite/assets/new/edit.png'] = 'rbxassetid://14368315443',
-	['motionrewrite/assets/new/expandicon.png'] = 'rbxassetid://14368353032',
-	['motionrewrite/assets/new/expandright.png'] = 'rbxassetid://14368316544',
-	['motionrewrite/assets/new/expandup.png'] = 'rbxassetid://14368317595',
-	['motionrewrite/assets/new/friendstab.png'] = 'rbxassetid://14397462778',
-	['motionrewrite/assets/new/guisettings.png'] = 'rbxassetid://14368318994',
-	['motionrewrite/assets/new/guislider.png'] = 'rbxassetid://14368320020',
-	['motionrewrite/assets/new/guisliderrain.png'] = 'rbxassetid://14368321228',
-	['motionrewrite/assets/new/guiv4.png'] = 'rbxassetid://14368322199',
-	['motionrewrite/assets/new/guivape.png'] = 'rbxassetid://14657521312',
-	['motionrewrite/assets/new/info.png'] = 'rbxassetid://14368324807',
-	['motionrewrite/assets/new/inventoryicon.png'] = 'rbxassetid://14928011633',
-	['motionrewrite/assets/new/legit.png'] = 'rbxassetid://14425650534',
-	['motionrewrite/assets/new/legittab.png'] = 'rbxassetid://14426740825',
-	['motionrewrite/assets/new/miniicon.png'] = 'rbxassetid://14368326029',
-	['motionrewrite/assets/new/notification.png'] = 'rbxassetid://16738721069',
-	['motionrewrite/assets/new/overlaysicon.png'] = 'rbxassetid://14368339581',
-	['motionrewrite/assets/new/overlaystab.png'] = 'rbxassetid://14397380433',
-	['motionrewrite/assets/new/pin.png'] = 'rbxassetid://14368342301',
-	['motionrewrite/assets/new/profilesicon.png'] = 'rbxassetid://14397465323',
-	['motionrewrite/assets/new/radaricon.png'] = 'rbxassetid://14368343291',
-	['motionrewrite/assets/new/rainbow_1.png'] = 'rbxassetid://14368344374',
-	['motionrewrite/assets/new/rainbow_2.png'] = 'rbxassetid://14368345149',
-	['motionrewrite/assets/new/rainbow_3.png'] = 'rbxassetid://14368345840',
-	['motionrewrite/assets/new/rainbow_4.png'] = 'rbxassetid://14368346696',
-	['motionrewrite/assets/new/range.png'] = 'rbxassetid://14368347435',
-	['motionrewrite/assets/new/rangearrow.png'] = 'rbxassetid://14368348640',
-	['motionrewrite/assets/new/rendericon.png'] = 'rbxassetid://14368350193',
-	['motionrewrite/assets/new/rendertab.png'] = 'rbxassetid://14397373458',
-	['motionrewrite/assets/new/search.png'] = 'rbxassetid://14425646684',
-	['motionrewrite/assets/new/targetinfoicon.png'] = 'rbxassetid://14368354234',
-	['motionrewrite/assets/new/targetnpc1.png'] = 'rbxassetid://14497400332',
-	['motionrewrite/assets/new/targetnpc2.png'] = 'rbxassetid://14497402744',
-	['motionrewrite/assets/new/targetplayers1.png'] = 'rbxassetid://14497396015',
-	['motionrewrite/assets/new/targetplayers2.png'] = 'rbxassetid://14497397862',
-	['motionrewrite/assets/new/targetstab.png'] = 'rbxassetid://14497393895',
-	['motionrewrite/assets/new/textguiicon.png'] = 'rbxassetid://14368355456',
-	['motionrewrite/assets/new/textv4.png'] = 'rbxassetid://14368357095',
-	['motionrewrite/assets/new/textvape.png'] = 'rbxassetid://14368358200',
-	['motionrewrite/assets/new/utilityicon.png'] = 'rbxassetid://14368359107',
-	['motionrewrite/assets/new/vape.png'] = 'rbxassetid://14373395239',
-	['motionrewrite/assets/new/warning.png'] = 'rbxassetid://14368361552',
-	['motionrewrite/assets/new/worldicon.png'] = 'rbxassetid://14368362492'
+	['motionswitch/assets/new/add.png'] = 'rbxassetid://14368300605',
+	['motionswitch/assets/new/alert.png'] = 'rbxassetid://14368301329',
+	['motionswitch/assets/new/allowedicon.png'] = 'rbxassetid://14368302000',
+	['motionswitch/assets/new/allowedtab.png'] = 'rbxassetid://14368302875',
+	['motionswitch/assets/new/arrowmodule.png'] = 'rbxassetid://14473354880',
+	['motionswitch/assets/new/back.png'] = 'rbxassetid://14368303894',
+	['motionswitch/assets/new/bind.png'] = 'rbxassetid://14368304734',
+	['motionswitch/assets/new/bindbkg.png'] = 'rbxassetid://14368305655',
+	['motionswitch/assets/new/blatanticon.png'] = 'rbxassetid://14368306745',
+	['motionswitch/assets/new/blockedicon.png'] = 'rbxassetid://14385669108',
+	['motionswitch/assets/new/blockedtab.png'] = 'rbxassetid://14385672881',
+	['motionswitch/assets/new/blur.png'] = 'rbxassetid://14898786664',
+	['motionswitch/assets/new/blurnotif.png'] = 'rbxassetid://16738720137',
+	['motionswitch/assets/new/close.png'] = 'rbxassetid://14368309446',
+	['motionswitch/assets/new/closemini.png'] = 'rbxassetid://14368310467',
+	['motionswitch/assets/new/colorpreview.png'] = 'rbxassetid://14368311578',
+	['motionswitch/assets/new/combaticon.png'] = 'rbxassetid://14368312652',
+	['motionswitch/assets/new/customsettings.png'] = 'rbxassetid://14403726449',
+	['motionswitch/assets/new/discord.png'] = '',
+	['motionswitch/assets/new/dots.png'] = 'rbxassetid://14368314459',
+	['motionswitch/assets/new/edit.png'] = 'rbxassetid://14368315443',
+	['motionswitch/assets/new/expandicon.png'] = 'rbxassetid://14368353032',
+	['motionswitch/assets/new/expandright.png'] = 'rbxassetid://14368316544',
+	['motionswitch/assets/new/expandup.png'] = 'rbxassetid://14368317595',
+	['motionswitch/assets/new/friendstab.png'] = 'rbxassetid://14397462778',
+	['motionswitch/assets/new/guisettings.png'] = 'rbxassetid://14368318994',
+	['motionswitch/assets/new/guislider.png'] = 'rbxassetid://14368320020',
+	['motionswitch/assets/new/guisliderrain.png'] = 'rbxassetid://14368321228',
+	['motionswitch/assets/new/guiv4.png'] = 'rbxassetid://14368322199',
+	['motionswitch/assets/new/guivape.png'] = 'rbxassetid://14657521312',
+	['motionswitch/assets/new/info.png'] = 'rbxassetid://14368324807',
+	['motionswitch/assets/new/inventoryicon.png'] = 'rbxassetid://14928011633',
+	['motionswitch/assets/new/legit.png'] = 'rbxassetid://14425650534',
+	['motionswitch/assets/new/legittab.png'] = 'rbxassetid://14426740825',
+	['motionswitch/assets/new/miniicon.png'] = 'rbxassetid://14368326029',
+	['motionswitch/assets/new/notification.png'] = 'rbxassetid://16738721069',
+	['motionswitch/assets/new/overlaysicon.png'] = 'rbxassetid://14368339581',
+	['motionswitch/assets/new/overlaystab.png'] = 'rbxassetid://14397380433',
+	['motionswitch/assets/new/pin.png'] = 'rbxassetid://14368342301',
+	['motionswitch/assets/new/profilesicon.png'] = 'rbxassetid://14397465323',
+	['motionswitch/assets/new/radaricon.png'] = 'rbxassetid://14368343291',
+	['motionswitch/assets/new/rainbow_1.png'] = 'rbxassetid://14368344374',
+	['motionswitch/assets/new/rainbow_2.png'] = 'rbxassetid://14368345149',
+	['motionswitch/assets/new/rainbow_3.png'] = 'rbxassetid://14368345840',
+	['motionswitch/assets/new/rainbow_4.png'] = 'rbxassetid://14368346696',
+	['motionswitch/assets/new/range.png'] = 'rbxassetid://14368347435',
+	['motionswitch/assets/new/rangearrow.png'] = 'rbxassetid://14368348640',
+	['motionswitch/assets/new/rendericon.png'] = 'rbxassetid://14368350193',
+	['motionswitch/assets/new/rendertab.png'] = 'rbxassetid://14397373458',
+	['motionswitch/assets/new/search.png'] = 'rbxassetid://14425646684',
+	['motionswitch/assets/new/targetinfoicon.png'] = 'rbxassetid://14368354234',
+	['motionswitch/assets/new/targetnpc1.png'] = 'rbxassetid://14497400332',
+	['motionswitch/assets/new/targetnpc2.png'] = 'rbxassetid://14497402744',
+	['motionswitch/assets/new/targetplayers1.png'] = 'rbxassetid://14497396015',
+	['motionswitch/assets/new/targetplayers2.png'] = 'rbxassetid://14497397862',
+	['motionswitch/assets/new/targetstab.png'] = 'rbxassetid://14497393895',
+	['motionswitch/assets/new/textguiicon.png'] = 'rbxassetid://14368355456',
+	['motionswitch/assets/new/textv4.png'] = 'rbxassetid://14368357095',
+	['motionswitch/assets/new/textvape.png'] = 'rbxassetid://14368358200',
+	['motionswitch/assets/new/utilityicon.png'] = 'rbxassetid://14368359107',
+	['motionswitch/assets/new/vape.png'] = 'rbxassetid://14373395239',
+	['motionswitch/assets/new/warning.png'] = 'rbxassetid://14368361552',
+	['motionswitch/assets/new/worldicon.png'] = 'rbxassetid://14368362492'
 }
 
 local isfile = isfile or function(file)
@@ -148,7 +148,7 @@ local function addBlur(parent, notif)
 	blur.Size = UDim2.new(1, 89, 1, 52)
 	blur.Position = UDim2.fromOffset(-48, -31)
 	blur.BackgroundTransparency = 1
-	blur.Image = getcustomasset('motionrewrite/assets/new/'..(notif and 'blurnotif' or 'blur')..'.png')
+	blur.Image = getcustomasset('motionswitch/assets/new/'..(notif and 'blurnotif' or 'blur')..'.png')
 	blur.ScaleType = Enum.ScaleType.Slice
 	blur.SliceCenter = Rect.new(52, 31, 261, 502)
 	blur.Parent = parent
@@ -172,7 +172,7 @@ local function addCloseButton(parent, offset)
 	close.BackgroundColor3 = Color3.new(1, 1, 1)
 	close.BackgroundTransparency = 1
 	close.AutoButtonColor = false
-	close.Image = getcustomasset('motionrewrite/assets/new/close.png')
+	close.Image = getcustomasset('motionswitch/assets/new/close.png')
 	close.ImageColor3 = color.Light(uipallet.Text, 0.2)
 	close.ImageTransparency = 0.5
 	close.Parent = parent
@@ -324,13 +324,13 @@ local function downloadFile(path, func)
 	if not isfile(path) then
 		createDownloader(path)
 		local suc, res = pcall(function()
-			return game:HttpGet('https://raw.githubusercontent.com/GlockSwitchMotion/MotionSwitch/'..readfile('motionrewrite/profiles/commit.txt')..'/'..select(1, path:gsub('motionrewrite/', '')), true)
+			return game:HttpGet('https://raw.githubusercontent.com/GlockSwitchMotion/motionswitch/'..readfile('motionswitch/profiles/commit.txt')..'/'..select(1, path:gsub('motionswitch/', '')), true)
 		end)
 		if not suc or res == '404: Not Found' then
 			error(res)
 		end
 		if path:find('.lua') then
-			res = '--This watermark is used to delete the file if its cached, remove it to make the file persist after vape updates.\n'..res
+			res = '--This watermark is used to delete the file if its cached, remove it to make the file persist after updates.\n'..res
 		end
 		writefile(path, res)
 	end
@@ -369,8 +369,8 @@ local function loadJson(path)
 	return suc and type(res) == 'table' and res or nil
 end
 
-downloadFile('motionrewrite/profiles/features.json')
-local moduleData = loadJson('motionrewrite/profiles/features.json')
+downloadFile('motionswitch/profiles/features.json')
+local moduleData = loadJson('motionswitch/profiles/features.json')
 local newModules = moduleData.new or {}
 local updModules = moduleData.updated or {}
 local function makeDraggable(gui, window)
@@ -425,7 +425,7 @@ local function removeTags(str)
 end
 
 do
-	local res = isfile('motionrewrite/profiles/color.txt') and loadJson('motionrewrite/profiles/color.txt')
+	local res = isfile('motionswitch/profiles/color.txt') and loadJson('motionswitch/profiles/color.txt')
 	if res then
 		uipallet.Main = res.Main and Color3.fromRGB(unpack(res.Main)) or uipallet.Main
 		uipallet.Text = res.Text and Color3.fromRGB(unpack(res.Text)) or uipallet.Text
@@ -510,4 +510,3 @@ mainapi.Libraries = {
 	tween = tween,
 	uipallet = uipallet,
 }
-```[cite: 2]
